@@ -1,0 +1,214 @@
+2024-11-30 14:46:41,718 - root - INFO - Starting bot...
+2024-11-30 14:46:41,823 - database.manager - INFO - Database tables created successfully.
+2024-11-30 14:46:41,824 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 14:46:41,824 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 14:46:43,602 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 14:46:43,635 - database.manager - ERROR - Database error: 'AsyncSession' object has no attribute 'query'
+2024-11-30 14:46:43,636 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 14:46:43,636 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-30 14:46:43,637 - bot - ERROR - Failed to process user join: 'AsyncSession' object has no attribute 'query'
+2024-11-30 14:46:43,638 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-30 14:46:43,649 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 14:46:43,651 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-30 14:46:43,651 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-30 14:47:36,246 - database.manager - ERROR - Database error: 'AsyncSession' object has no attribute 'query'
+2024-11-30 14:47:36,247 - bot - ERROR - Failed to process user join: 'AsyncSession' object has no attribute 'query'
+2024-11-30 14:50:01,584 - root - INFO - Initiating shutdown sequence...
+2024-11-30 14:50:01,585 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 14:50:01,585 - database.manager - ERROR - Error closing database connections: 'sessionmaker' object has no attribute 'remove'
+2024-11-30 14:50:01,585 - asyncio - ERROR - Error during shutdown: 'sessionmaker' object has no attribute 'remove'
+2024-11-30 16:23:48,767 - root - INFO - Starting bot...
+2024-11-30 16:23:48,784 - database.manager - INFO - Database tables created successfully.
+2024-11-30 16:23:48,787 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 16:23:48,787 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 16:23:50,640 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 16:23:50,671 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 16:23:50,679 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: banned_phrases
+[SQL: SELECT phrase FROM banned_phrases WHERE enabled = TRUE]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:23:50,679 - features.moderation.moderator - ERROR - Error loading banned phrases: (sqlite3.OperationalError) no such table: banned_phrases
+[SQL: SELECT phrase FROM banned_phrases WHERE enabled = TRUE]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:23:50,682 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 16:23:50,685 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: banned_phrases
+[SQL: SELECT phrase FROM banned_phrases WHERE enabled = TRUE]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:23:50,685 - features.moderation.moderator - ERROR - Error loading banned phrases: (sqlite3.OperationalError) no such table: banned_phrases
+[SQL: SELECT phrase FROM banned_phrases WHERE enabled = TRUE]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:24:02,152 - root - INFO - Initiating shutdown sequence...
+2024-11-30 16:24:02,152 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 16:24:02,153 - database.manager - INFO - Database connections closed successfully
+2024-11-30 16:42:59,230 - root - INFO - Starting bot...
+2024-11-30 16:42:59,252 - database.manager - INFO - Database tables created successfully.
+2024-11-30 16:42:59,255 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 16:42:59,255 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 16:43:01,261 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 16:43:01,296 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 16:43:01,303 - database.manager - ERROR - Database error: object list can't be used in 'await' expression
+2024-11-30 16:43:01,304 - features.moderation.moderator - ERROR - Error loading banned phrases: object list can't be used in 'await' expression
+2024-11-30 16:43:01,308 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 16:43:01,311 - database.manager - ERROR - Database error: object list can't be used in 'await' expression
+2024-11-30 16:43:01,311 - features.moderation.moderator - ERROR - Error loading banned phrases: object list can't be used in 'await' expression
+2024-11-30 16:43:14,670 - root - INFO - Initiating shutdown sequence...
+2024-11-30 16:43:14,671 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 16:43:14,671 - database.manager - INFO - Database connections closed successfully
+2024-11-30 16:44:35,041 - root - INFO - Starting bot...
+2024-11-30 16:44:35,060 - database.manager - INFO - Database tables created successfully.
+2024-11-30 16:44:35,061 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 16:44:35,061 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 16:44:36,964 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 16:44:36,991 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 16:44:36,996 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 16:44:37,000 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 16:44:37,004 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 16:44:54,572 - asyncio - ERROR - Error processing message: 'UserTracker' object has no attribute 'track_user_message'
+2024-11-30 16:45:09,120 - asyncio - ERROR - Error processing message: 'UserTracker' object has no attribute 'track_user_message'
+2024-11-30 16:45:13,428 - root - INFO - Initiating shutdown sequence...
+2024-11-30 16:45:13,428 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 16:45:13,429 - database.manager - INFO - Database connections closed successfully
+2024-11-30 16:47:59,077 - root - INFO - Starting bot...
+2024-11-30 16:47:59,098 - database.manager - INFO - Database tables created successfully.
+2024-11-30 16:47:59,099 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 16:47:59,100 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 16:48:00,771 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 16:48:00,798 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 16:48:00,804 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 16:48:00,807 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 16:48:00,810 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 16:48:10,057 - database.manager - ERROR - Database error: (sqlite3.OperationalError) table users has no column named is_moderator
+[SQL: 
+                    INSERT INTO users (
+                        twitch_id, username, first_seen, last_seen, 
+                        is_subscriber, is_moderator
+                    ) VALUES (
+                        ?, ?, ?, ?,
+                        ?, ?
+                    )
+                    ON CONFLICT (twitch_id) DO UPDATE SET
+                        username = ?,
+                        last_seen = ?,
+                        is_subscriber = ?,
+                        is_moderator = ?
+                ]
+[parameters: ('81246495', 'defiantdread', datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), True, True, 'defiantdread', datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), True, True)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:48:10,058 - features.tracking.user_tracker - ERROR - Error updating user database: (sqlite3.OperationalError) table users has no column named is_moderator
+[SQL: 
+                    INSERT INTO users (
+                        twitch_id, username, first_seen, last_seen, 
+                        is_subscriber, is_moderator
+                    ) VALUES (
+                        ?, ?, ?, ?,
+                        ?, ?
+                    )
+                    ON CONFLICT (twitch_id) DO UPDATE SET
+                        username = ?,
+                        last_seen = ?,
+                        is_subscriber = ?,
+                        is_moderator = ?
+                ]
+[parameters: ('81246495', 'defiantdread', datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), True, True, 'defiantdread', datetime.datetime(2024, 11, 30, 21, 48, 10, 54892, tzinfo=datetime.timezone.utc), True, True)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-30 16:48:10,059 - asyncio - ERROR - Error processing message: 'TwitchBot' object has no attribute 'prefix'
+2024-11-30 16:48:23,449 - root - INFO - Initiating shutdown sequence...
+2024-11-30 16:48:23,449 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 16:48:23,450 - database.manager - INFO - Database connections closed successfully
+2024-11-30 16:58:46,780 - root - INFO - Starting bot...
+2024-11-30 16:58:46,812 - database.manager - INFO - Database tables created successfully.
+2024-11-30 16:58:46,814 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 16:58:46,815 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 16:58:47,984 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 16:58:48,018 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 16:58:48,021 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 16:58:48,034 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 17:00:13,949 - features.commands.analytics - ERROR - Error showing stream time: 'AnalyticsTracker' object has no attribute 'get_stream_summary'
+2024-11-30 17:00:26,557 - root - INFO - Initiating shutdown sequence...
+2024-11-30 17:00:26,557 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 17:00:26,558 - database.manager - INFO - Database connections closed successfully
+2024-11-30 17:04:39,288 - root - INFO - Starting bot...
+2024-11-30 17:04:39,321 - database.manager - INFO - Database tables created successfully.
+2024-11-30 17:04:39,322 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 17:04:39,322 - root - CRITICAL - Fatal error: Cog "AnalyticsCommands" has already been loaded.
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 87, in main
+    bot.add_cog(AnalyticsCommands(bot))
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\ext\commands\bot.py", line 452, in add_cog
+    raise InvalidCog(f'Cog "{cog.name}" has already been loaded.')
+twitchio.ext.commands.errors.InvalidCog: Cog "AnalyticsCommands" has already been loaded.
+2024-11-30 17:04:39,325 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 17:04:39,325 - database.manager - INFO - Database connections closed successfully
+2024-11-30 17:04:39,325 - root - CRITICAL - Unexpected error: 'NoneType' object has no attribute 'set'
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 87, in main
+    bot.add_cog(AnalyticsCommands(bot))
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\ext\commands\bot.py", line 452, in add_cog
+    raise InvalidCog(f'Cog "{cog.name}" has already been loaded.')
+twitchio.ext.commands.errors.InvalidCog: Cog "AnalyticsCommands" has already been loaded.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 105, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 100, in main
+    await bot.close()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 268, in close
+    await super().close()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\client.py", line 199, in close
+    self._closing.set()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'set'
+2024-11-30 17:12:56,363 - root - INFO - Starting bot...
+2024-11-30 17:12:56,396 - database.manager - INFO - Database tables created successfully.
+2024-11-30 17:12:56,397 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 17:12:56,398 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 17:12:57,288 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 17:12:57,320 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 17:12:57,324 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 17:12:57,328 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 17:41:09,447 - root - INFO - Initiating shutdown sequence...
+2024-11-30 17:41:09,448 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 17:41:09,448 - database.manager - INFO - Database connections closed successfully
+2024-11-30 17:46:36,095 - root - INFO - Starting bot...
+2024-11-30 17:46:36,123 - database.manager - INFO - Database tables created successfully.
+2024-11-30 17:46:36,124 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 17:46:36,125 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 17:46:37,036 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 17:46:37,063 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 17:46:37,068 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 17:46:37,073 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 17:47:43,513 - root - INFO - Initiating shutdown sequence...
+2024-11-30 17:47:43,514 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 17:47:43,514 - database.manager - INFO - Database connections closed successfully
+2024-11-30 19:05:40,841 - root - INFO - Starting bot...
+2024-11-30 19:05:40,874 - database.manager - INFO - Database tables created successfully.
+2024-11-30 19:05:40,875 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 19:05:40,875 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 19:05:41,760 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 19:05:41,808 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 19:05:41,811 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 19:05:41,815 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 21:55:09,336 - root - INFO - Initiating shutdown sequence...
+2024-11-30 21:55:09,337 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 21:55:09,337 - database.manager - INFO - Database connections closed successfully
+2024-11-30 21:56:45,484 - root - INFO - Starting bot...
+2024-11-30 21:56:45,604 - database.manager - INFO - Database tables created successfully.
+2024-11-30 21:56:45,605 - database.manager - INFO - Database engine initialized successfully
+2024-11-30 21:56:45,605 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-30 21:56:46,522 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-30 21:56:46,567 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-30 21:56:46,570 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-11-30 21:56:46,574 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-11-30 22:24:03,886 - root - INFO - Initiating shutdown sequence...
+2024-11-30 22:24:03,887 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-30 22:24:03,887 - database.manager - INFO - Database connections closed successfully

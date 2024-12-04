@@ -1,0 +1,17 @@
+2024-11-28 12:58:31,557 - root - INFO - Starting bot...
+2024-11-28 12:58:31,557 - root - CRITICAL - Configuration error: Missing required configuration: BOT_TOKEN, CLIENT_ID, CLIENT_SECRET, CHANNEL_NAME
+2024-11-28 12:59:01,081 - root - INFO - Starting bot...
+2024-11-28 12:59:01,081 - root - CRITICAL - Configuration error: Missing required configuration: BOT_TOKEN, CLIENT_ID, CLIENT_SECRET, CHANNEL_NAME
+2024-11-28 13:00:25,942 - root - INFO - Starting bot...
+2024-11-28 13:00:26,043 - root - CRITICAL - Fatal error: Cogs must derive from "commands.Cog".
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 66, in main
+    bot.add_cog(BaseCommands(bot))
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\ext\commands\bot.py", line 450, in add_cog
+    raise InvalidCog('Cogs must derive from "commands.Cog".')
+twitchio.ext.commands.errors.InvalidCog: Cogs must derive from "commands.Cog".
+2024-11-28 13:02:07,762 - root - INFO - Starting bot...
+2024-11-28 13:02:07,777 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-28 13:02:08,725 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-28 13:02:08,781 - bot - INFO - Bot is online! Username: helmsmanharry
+2024-11-28 13:05:11,986 - root - INFO - Bot shutdown initiated by user

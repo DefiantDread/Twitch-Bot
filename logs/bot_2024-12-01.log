@@ -1,0 +1,409 @@
+2024-12-01 12:40:28,732 - root - INFO - Starting bot...
+2024-12-01 12:40:28,758 - database.manager - INFO - Database tables created successfully.
+2024-12-01 12:40:28,759 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 12:40:28,760 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 12:40:29,672 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 12:40:29,707 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 12:40:29,711 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 12:40:29,715 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 12:57:07,328 - root - INFO - Initiating shutdown sequence...
+2024-12-01 12:57:07,328 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 12:57:07,329 - database.manager - INFO - Database connections closed successfully
+2024-12-01 12:57:10,910 - root - INFO - Starting bot...
+2024-12-01 12:57:10,943 - database.manager - INFO - Database tables created successfully.
+2024-12-01 12:57:10,944 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 12:57:10,944 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 12:57:11,848 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 12:57:11,880 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 12:57:11,885 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 12:57:11,889 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 12:59:20,860 - root - INFO - Initiating shutdown sequence...
+2024-12-01 12:59:20,861 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 12:59:20,861 - database.manager - INFO - Database connections closed successfully
+2024-12-01 12:59:34,089 - root - INFO - Starting bot...
+2024-12-01 12:59:34,118 - database.manager - INFO - Database tables created successfully.
+2024-12-01 12:59:34,119 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 12:59:34,119 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 12:59:34,831 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 12:59:34,859 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 12:59:34,863 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 12:59:34,867 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 13:03:54,907 - root - INFO - Initiating shutdown sequence...
+2024-12-01 13:03:54,907 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 13:03:54,909 - database.manager - INFO - Database connections closed successfully
+2024-12-01 13:03:59,587 - root - INFO - Starting bot...
+2024-12-01 13:03:59,640 - database.manager - INFO - Database tables created successfully.
+2024-12-01 13:03:59,642 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 13:03:59,643 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 13:04:00,356 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 13:04:00,384 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 13:04:00,391 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 13:04:00,407 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 16:07:14,288 - root - INFO - Initiating shutdown sequence...
+2024-12-01 16:07:14,289 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 16:07:14,289 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:22:02,677 - root - INFO - Starting bot...
+2024-12-01 17:22:02,703 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:22:02,704 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:22:02,705 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:22:03,444 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:22:03,481 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:22:03,485 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:22:03,488 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:23:37,007 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:23:37,007 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:23:37,007 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:29:06,881 - root - INFO - Starting bot...
+2024-12-01 17:29:06,908 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:29:06,909 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:29:06,909 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:29:07,631 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:29:07,658 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:29:07,663 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:29:07,666 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:33:18,643 - features.commands.raid_commands - ERROR - Error forcing raid: 'TwitchBot' object has no attribute 'raid_scheduler'
+2024-12-01 17:33:39,053 - features.commands.raid_commands - ERROR - Error processing crew command: 'ship_type'
+2024-12-01 17:33:46,149 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-01 17:33:46,149 - features.commands.raid_commands - ERROR - Error processing raid stats command: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-01 17:34:40,020 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:34:40,020 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:34:40,020 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:35:31,956 - root - INFO - Starting bot...
+2024-12-01 17:35:32,000 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:35:32,002 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:35:32,003 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:35:32,733 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:35:32,759 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:35:32,763 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:35:32,769 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:35:56,278 - features.commands.analytics - ERROR - Error showing weekly stats: 'AnalyticsTracker' object has no attribute 'get_historical_stats'
+2024-12-01 17:36:13,308 - features.commands.analytics - ERROR - Error analyzing stats: 'AnalyticsTracker' object has no attribute 'get_historical_stats'
+2024-12-01 17:36:45,857 - features.commands.analytics - ERROR - Error analyzing stats: 'AnalyticsTracker' object has no attribute 'get_historical_stats'
+2024-12-01 17:36:54,249 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:36:54,249 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:36:54,250 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:36:58,971 - root - INFO - Starting bot...
+2024-12-01 17:36:59,005 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:36:59,006 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:36:59,006 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:36:59,718 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:36:59,740 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:36:59,746 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:36:59,752 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:37:09,368 - features.commands.raid_commands - ERROR - Error forcing raid: 'TwitchBot' object has no attribute 'raid_scheduler'
+2024-12-01 17:41:43,734 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:41:43,734 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:41:43,736 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:41:46,930 - root - INFO - Starting bot...
+2024-12-01 17:41:46,958 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:41:46,959 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:41:46,960 - root - CRITICAL - Fatal error: 'TwitchBot' object has no attribute 'stream_interaction'
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 79, in main
+    bot = TwitchBot()
+          ^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 90, in __init__
+    self._register_reward_handlers()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 163, in _register_reward_handlers
+    **self.stream_interaction.handlers,
+      ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TwitchBot' object has no attribute 'stream_interaction'
+2024-12-01 17:43:29,019 - root - INFO - Starting bot...
+2024-12-01 17:43:29,054 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:43:29,056 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:43:29,056 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:43:29,759 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:43:29,795 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:43:29,799 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:43:29,802 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:43:52,297 - core.raid_manager - ERROR - Error starting raid: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 17:43:52,297 - core.raid_recovery - ERROR - Raid error occurred: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 17:43:52,297 - core.raid_recovery - ERROR - Error during recovery: 'RaidRecoveryManager' object has no attribute '_handle_unknown_error'
+2024-12-01 17:43:52,297 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 17:46:10,831 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:46:10,832 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:46:10,832 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:46:16,933 - root - INFO - Starting bot...
+2024-12-01 17:46:16,965 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:46:16,966 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:46:16,967 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:46:17,667 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:46:17,689 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:46:17,693 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:46:17,698 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 17:50:36,036 - root - INFO - Initiating shutdown sequence...
+2024-12-01 17:50:36,036 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 17:50:36,037 - database.manager - INFO - Database connections closed successfully
+2024-12-01 17:50:45,785 - root - INFO - Starting bot...
+2024-12-01 17:50:45,814 - database.manager - INFO - Database tables created successfully.
+2024-12-01 17:50:45,815 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 17:50:45,817 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 17:50:46,511 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 17:50:46,536 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 17:50:46,541 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 17:50:46,546 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:36:32,951 - root - INFO - Starting bot...
+2024-12-01 19:36:32,983 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:36:32,984 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:36:32,985 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:36:33,939 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:36:33,967 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:36:33,970 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:36:33,973 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:39:30,505 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:39:30,505 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:39:30,506 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:39:46,542 - root - INFO - Starting bot...
+2024-12-01 19:39:46,576 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:39:46,578 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:39:46,578 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:39:47,509 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:39:47,532 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:39:47,535 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:39:47,540 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:40:13,557 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:40:13,557 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:40:13,557 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:40:39,633 - root - INFO - Starting bot...
+2024-12-01 19:40:39,661 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:40:39,662 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:40:39,663 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:40:40,583 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:40:40,604 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:40:40,608 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:40:40,610 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:40:59,133 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:40:59,133 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:40:59,134 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:41:38,298 - root - INFO - Starting bot...
+2024-12-01 19:41:38,329 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:41:38,331 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:41:38,331 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:41:39,274 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:41:39,300 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:41:39,304 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:41:39,307 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:42:55,587 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:42:55,587 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:42:55,587 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:42:59,240 - root - INFO - Starting bot...
+2024-12-01 19:42:59,267 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:42:59,268 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:42:59,268 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:43:00,178 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:43:00,197 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:43:00,201 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:43:00,206 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:43:34,267 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:43:34,267 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:43:34,268 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:43:39,525 - root - INFO - Starting bot...
+2024-12-01 19:43:39,570 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:43:39,571 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:43:39,572 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:43:40,507 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:43:40,527 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:43:40,531 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:43:40,535 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:43:55,160 - features.commands.raid_commands - ERROR - Error processing crew command: 'ship_type'
+2024-12-01 19:44:06,304 - core.raid_manager - ERROR - Error starting raid: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 19:44:06,305 - core.raid_recovery - ERROR - Raid error occurred: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 19:44:06,306 - core.raid_recovery - ERROR - Error during recovery: 'RaidRecoveryManager' object has no attribute '_handle_unknown_error'
+2024-12-01 19:44:06,306 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 19:44:24,418 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:44:24,419 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:44:24,419 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:46:53,579 - root - INFO - Starting bot...
+2024-12-01 19:46:53,604 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:46:53,605 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:46:53,606 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:46:54,524 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:46:54,559 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:46:54,563 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:46:54,571 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:47:55,713 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:47:55,713 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:47:55,714 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:48:28,964 - root - INFO - Starting bot...
+2024-12-01 19:48:28,993 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:48:28,995 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:48:28,997 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:48:29,928 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:48:29,958 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:48:29,963 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:48:29,967 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:50:26,211 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:50:26,211 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:50:26,212 - database.manager - INFO - Database connections closed successfully
+2024-12-01 19:54:26,670 - root - INFO - Starting bot...
+2024-12-01 19:54:26,703 - database.manager - INFO - Database tables created successfully.
+2024-12-01 19:54:26,704 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 19:54:26,704 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 19:54:27,635 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 19:54:27,661 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 19:54:27,664 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 19:54:27,667 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 19:54:34,237 - features.points.commands - INFO - New user defiantdread (81246495) added with 0 points.
+2024-12-01 19:54:45,934 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-01 19:54:54,258 - core.raid_manager - ERROR - Error joining raid: 'NoneType' object has no attribute 'value'
+2024-12-01 19:54:54,259 - core.raid_recovery - ERROR - Raid error occurred: 'NoneType' object has no attribute 'value'
+2024-12-01 19:54:54,259 - core.raid_recovery - ERROR - Error during recovery: 'RaidRecoveryManager' object has no attribute '_handle_unknown_error'
+2024-12-01 19:54:54,259 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 19:54:59,384 - core.raid_manager - ERROR - Error starting raid: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 19:54:59,385 - core.raid_recovery - ERROR - Raid error occurred: 'TwitchBot' object has no attribute 'get_viewer_count'
+2024-12-01 19:54:59,385 - core.raid_recovery - ERROR - Error during recovery: 'RaidRecoveryManager' object has no attribute '_handle_unknown_error'
+2024-12-01 19:54:59,385 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 19:55:04,972 - root - INFO - Initiating shutdown sequence...
+2024-12-01 19:55:04,972 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 19:55:04,974 - database.manager - INFO - Database connections closed successfully
+2024-12-01 20:11:56,543 - root - INFO - Starting bot...
+2024-12-01 20:11:56,572 - database.manager - INFO - Database tables created successfully.
+2024-12-01 20:11:56,574 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 20:11:56,575 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 20:11:57,512 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 20:11:57,541 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 20:11:57,545 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 20:11:57,551 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 20:12:16,761 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-01 20:12:26,319 - core.raid_manager - ERROR - Error joining raid: 'NoneType' object has no attribute 'value'
+2024-12-01 20:12:26,319 - core.raid_recovery - ERROR - Raid error occurred: 'NoneType' object has no attribute 'value'
+2024-12-01 20:12:26,319 - core.raid_recovery - ERROR - Error during recovery: RaidRecoveryManager._handle_unknown_error() takes 2 positional arguments but 3 were given
+2024-12-01 20:12:26,319 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 20:12:30,774 - asyncio - ERROR - Viewer count attribute not available.
+2024-12-01 20:12:30,775 - core.raid_manager - ERROR - Last raid end time is None, cannot validate raid start.
+2024-12-01 20:12:36,022 - root - INFO - Initiating shutdown sequence...
+2024-12-01 20:12:36,022 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 20:12:36,023 - database.manager - INFO - Database connections closed successfully
+2024-12-01 20:14:00,057 - root - INFO - Starting bot...
+2024-12-01 20:14:00,093 - database.manager - INFO - Database tables created successfully.
+2024-12-01 20:14:00,095 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 20:14:00,095 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 20:14:01,042 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 20:14:01,073 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 20:14:01,076 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 20:14:01,081 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 20:14:19,271 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-01 20:18:10,050 - core.raid_manager - ERROR - Error joining raid: 'NoneType' object has no attribute 'value'
+2024-12-01 20:18:10,050 - core.raid_recovery - ERROR - Raid error occurred: 'NoneType' object has no attribute 'value'
+2024-12-01 20:18:10,050 - core.raid_recovery - ERROR - Error during recovery: RaidRecoveryManager._handle_unknown_error() takes 2 positional arguments but 3 were given
+2024-12-01 20:18:10,051 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 20:39:20,384 - root - INFO - Initiating shutdown sequence...
+2024-12-01 20:39:20,384 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 20:39:20,384 - database.manager - INFO - Database connections closed successfully
+2024-12-01 21:19:16,276 - root - INFO - Starting bot...
+2024-12-01 21:19:16,317 - database.manager - INFO - Database tables created successfully.
+2024-12-01 21:19:16,318 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 21:19:16,318 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 21:19:17,262 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 21:19:17,313 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 21:19:17,317 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 21:19:17,323 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 22:43:49,065 - twitchio.websocket - ERROR - Websocket connection was closed: None
+2024-12-01 22:43:49,075 - twitchio.websocket - ERROR - Websocket connection failure: Cannot connect to host irc-ws.chat.twitch.tv:443 ssl:default [getaddrinfo failed]:: Attempting reconnect in 0.23192612268412272 seconds.
+2024-12-01 22:43:49,803 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 22:44:03,530 - root - INFO - Initiating shutdown sequence...
+2024-12-01 22:44:03,531 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 22:44:03,532 - database.manager - INFO - Database connections closed successfully
+2024-12-01 22:44:03,532 - asyncio - ERROR - Exception in callback WSConnection._task_callback(':tmi.twitch....elcome, GLHF!')(<Task cancell...ocket.py:341>>)
+handle: <Handle WSConnection._task_callback(':tmi.twitch....elcome, GLHF!')(<Task cancell...ocket.py:341>>)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\websocket.py", line 198, in _task_callback
+    exc = task.exception()
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\websocket.py", line 348, in _process_data
+    return await self._code(parsed, parsed["code"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\websocket.py", line 377, in _code
+    await self.is_ready.wait()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+2024-12-01 23:38:10,017 - root - INFO - Starting bot...
+2024-12-01 23:38:10,130 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:38:10,131 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:38:10,131 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:38:10,993 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:38:11,026 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:38:11,028 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:38:11,032 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:38:22,938 - root - INFO - Initiating shutdown sequence...
+2024-12-01 23:38:22,939 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 23:38:22,939 - database.manager - INFO - Database connections closed successfully
+2024-12-01 23:44:08,528 - root - INFO - Starting bot...
+2024-12-01 23:44:08,554 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:44:08,555 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:44:08,556 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:44:09,450 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:44:09,468 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:44:09,472 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:44:09,476 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:45:01,407 - core.raid_manager - ERROR - Error joining raid: 'NoneType' object has no attribute 'value'
+2024-12-01 23:45:01,407 - core.raid_recovery - ERROR - Raid error occurred: 'NoneType' object has no attribute 'value'
+2024-12-01 23:45:01,407 - core.raid_recovery - ERROR - Error during recovery: RaidRecoveryManager._handle_unknown_error() takes 2 positional arguments but 3 were given
+2024-12-01 23:45:01,407 - core.raid_recovery - ERROR - Error during force reset: 'RaidManager' object has no attribute 'raid_manager'
+2024-12-01 23:50:40,553 - root - INFO - Initiating shutdown sequence...
+2024-12-01 23:50:40,553 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 23:50:40,554 - database.manager - INFO - Database connections closed successfully
+2024-12-01 23:51:13,970 - root - INFO - Starting bot...
+2024-12-01 23:51:14,002 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:51:14,003 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:51:14,003 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:51:14,882 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:51:14,915 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:51:14,918 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:51:14,922 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:51:35,201 - asyncio - ERROR - Viewer count attribute not available.
+2024-12-01 23:51:35,201 - core.raid_manager - ERROR - Viewer count is None or zero, cannot start raid.
+2024-12-01 23:54:19,308 - root - INFO - Initiating shutdown sequence...
+2024-12-01 23:54:19,308 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 23:54:19,308 - database.manager - INFO - Database connections closed successfully
+2024-12-01 23:54:22,217 - root - INFO - Starting bot...
+2024-12-01 23:54:22,255 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:54:22,256 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:54:22,257 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:54:23,141 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:54:23,167 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:54:23,171 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:54:23,175 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:54:30,064 - core.raid_manager - ERROR - Error starting raid: object int can't be used in 'await' expression
+2024-12-01 23:54:30,065 - core.raid_recovery - ERROR - Raid error occurred: object int can't be used in 'await' expression
+2024-12-01 23:54:30,065 - core.raid_recovery - ERROR - An unknown error occurred during raid recovery: object int can't be used in 'await' expression
+2024-12-01 23:55:24,165 - root - INFO - Initiating shutdown sequence...
+2024-12-01 23:55:24,165 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 23:55:24,166 - database.manager - INFO - Database connections closed successfully
+2024-12-01 23:55:31,212 - root - INFO - Starting bot...
+2024-12-01 23:55:31,245 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:55:31,247 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:55:31,247 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:55:32,092 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:55:32,116 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:55:32,120 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:55:32,126 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:55:38,780 - core.raid_manager - ERROR - Last raid end time is None, cannot validate raid start.
+2024-12-01 23:57:34,509 - root - INFO - Initiating shutdown sequence...
+2024-12-01 23:57:34,509 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-01 23:57:34,510 - database.manager - INFO - Database connections closed successfully
+2024-12-01 23:57:37,584 - root - INFO - Starting bot...
+2024-12-01 23:57:37,622 - database.manager - INFO - Database tables created successfully.
+2024-12-01 23:57:37,623 - database.manager - INFO - Database engine initialized successfully
+2024-12-01 23:57:37,624 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-01 23:57:38,522 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-01 23:57:38,549 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-01 23:57:38,555 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-01 23:57:38,559 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-01 23:57:52,948 - core.raid_manager - WARNING - Raid start validation failed: ErrorCode.RAID_ALREADY_ACTIVE
+2024-12-02 00:00:57,930 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:00:57,930 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:00:57,930 - database.manager - INFO - Database connections closed successfully

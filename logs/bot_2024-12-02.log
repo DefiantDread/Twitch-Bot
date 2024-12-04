@@ -1,0 +1,814 @@
+2024-12-02 00:01:00,132 - root - INFO - Starting bot...
+2024-12-02 00:01:00,159 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:01:00,160 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:01:00,160 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:01:01,047 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:01:01,076 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:01:01,080 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:01:01,084 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:01:08,653 - core.raid_manager - WARNING - Raid start validation failed: ErrorCode.RAID_ALREADY_ACTIVE
+2024-12-02 00:03:52,644 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:03:52,644 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:03:52,645 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:04:38,828 - root - INFO - Starting bot...
+2024-12-02 00:04:38,864 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:04:38,865 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:04:38,866 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:04:39,733 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:04:39,765 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:04:39,769 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:04:39,778 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:04:54,761 - core.raid_manager - WARNING - Raid start validation failed: ErrorCode.RAID_ALREADY_ACTIVE
+2024-12-02 00:09:20,653 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:09:20,653 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:09:20,654 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:09:22,843 - root - INFO - Starting bot...
+2024-12-02 00:09:22,879 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:09:22,881 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:09:22,881 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:09:23,788 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:09:23,816 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:09:23,820 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:09:23,823 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:09:54,042 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:10:10,167 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:10:10,169 - core.raid_messages - ERROR - Error announcing raid start: 'dict' object has no attribute 'ship_type'
+2024-12-02 00:11:10,183 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-66' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:172> exception=AttributeError("'RaidMessageHandler' object has no attribute 'announce_remaining_time'")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 177, in _recruitment_timer
+    await self._announce_time_remaining()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 527, in _announce_time_remaining
+    await self.bot.raid_messages.announce_remaining_time(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RaidMessageHandler' object has no attribute 'announce_remaining_time'
+2024-12-02 00:11:44,305 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:11:44,305 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:11:44,306 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:14:49,635 - root - INFO - Starting bot...
+2024-12-02 00:14:49,676 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:14:49,677 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:14:49,678 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:14:50,561 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:14:50,606 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:14:50,610 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:14:50,614 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:14:57,052 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:15:00,465 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:15:00,465 - core.raid_messages - ERROR - Error announcing raid start: 'dict' object has no attribute 'ship_type'
+2024-12-02 00:15:00,465 - core.raid_manager - ERROR - Error announcing raid start: 'TwitchBot' object has no attribute 'send_message'
+2024-12-02 00:15:03,829 - core.raid_manager - ERROR - Error joining raid: 'PointsManager' object has no attribute 'remove_points'
+2024-12-02 00:15:03,829 - core.raid_recovery - ERROR - Raid error occurred: 'PointsManager' object has no attribute 'remove_points'
+2024-12-02 00:15:03,829 - core.raid_recovery - ERROR - An unknown error occurred during raid recovery: 'PointsManager' object has no attribute 'remove_points'
+2024-12-02 00:15:32,412 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:15:32,413 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:15:32,413 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:21:30,536 - root - INFO - Starting bot...
+2024-12-02 00:21:30,569 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:21:30,571 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:21:30,572 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:21:31,455 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:21:31,478 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:21:31,484 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:21:31,490 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:21:45,901 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:21:50,453 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:21:50,454 - core.raid_messages - ERROR - Error announcing raid start: 'RaidMessageHandler' object has no attribute 'raid_start_messages'
+2024-12-02 00:21:55,772 - core.raid_manager - ERROR - Error joining raid: 'RaidMessageHandler' object has no attribute 'announce_crew_joined'
+2024-12-02 00:21:55,773 - core.raid_recovery - ERROR - Raid error occurred: 'RaidMessageHandler' object has no attribute 'announce_crew_joined'
+2024-12-02 00:21:55,773 - core.raid_recovery - ERROR - An unknown error occurred during raid recovery: 'RaidMessageHandler' object has no attribute 'announce_crew_joined'
+2024-12-02 00:22:18,636 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:22:18,636 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:22:18,636 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:29:55,879 - root - INFO - Starting bot...
+2024-12-02 00:29:55,914 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:29:55,917 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:29:55,917 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:29:56,818 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:29:56,855 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:29:56,860 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:29:56,863 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:30:05,658 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:30:10,293 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:30:10,294 - core.raid_messages - ERROR - Error announcing raid start: 'RaidMessageHandler' object has no attribute 'raid_start_messages'
+2024-12-02 00:30:22,310 - asyncio - ERROR - Error sending chat message: 'TwitchBot' object has no attribute 'channel_name'
+2024-12-02 00:30:22,311 - asyncio - ERROR - Error sending chat message: 'TwitchBot' object has no attribute 'channel_name'
+2024-12-02 00:30:22,311 - core.raid_manager - ERROR - Error checking milestone: 'NoneType' object is not subscriptable
+2024-12-02 00:30:22,311 - core.raid_recovery - ERROR - Raid error occurred: 'NoneType' object is not subscriptable
+2024-12-02 00:30:22,311 - core.raid_recovery - ERROR - An unknown error occurred during raid recovery: 'NoneType' object is not subscriptable
+2024-12-02 00:30:58,514 - features.points.commands - INFO - User defiantdread (81246495) has 800 points.
+2024-12-02 00:31:08,995 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:31:08,995 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:31:08,995 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:45:04,402 - root - INFO - Starting bot...
+2024-12-02 00:45:04,452 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:45:04,453 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:45:04,454 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:45:05,345 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:45:05,372 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:45:05,377 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:45:05,381 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:45:10,808 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:45:14,397 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:45:14,397 - core.raid_messages - ERROR - Error announcing raid start: name 'data' is not defined
+2024-12-02 00:47:10,218 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:47:10,218 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:47:10,219 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:48:17,398 - root - INFO - Starting bot...
+2024-12-02 00:48:17,426 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:48:17,427 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:48:17,428 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:48:18,319 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:48:18,344 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:48:18,351 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:48:18,355 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:48:23,926 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:48:26,466 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:49:53,711 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:49:58,206 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:50:26,499 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:50:26,499 - core.raid_recovery - ERROR - Raid error occurred: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:50:26,499 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:190> exception=AttributeError("'RaidManager' object has no attribute '_reset_raid'")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 293, in _complete_raid
+    raise RaidStateError(error_code)
+core.raid_errors.RaidStateError: ErrorCode.INVALID_STATE_TRANSITION
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 201, in _recruitment_timer
+    await self._complete_raid()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 408, in _complete_raid
+    await self._reset_raid()
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'RaidManager' object has no attribute '_reset_raid'. Did you mean: '_reset_raid_data'?
+2024-12-02 00:51:45,936 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-02 00:51:45,937 - features.commands.raid_commands - ERROR - Error processing raid stats command: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-02 00:51:58,218 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:51:58,218 - core.raid_recovery - ERROR - Raid error occurred: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:51:58,218 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-96' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:190> exception=AttributeError("'RaidManager' object has no attribute '_reset_raid'")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 293, in _complete_raid
+    raise RaidStateError(error_code)
+core.raid_errors.RaidStateError: ErrorCode.INVALID_STATE_TRANSITION
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 201, in _recruitment_timer
+    await self._complete_raid()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 408, in _complete_raid
+    await self._reset_raid()
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'RaidManager' object has no attribute '_reset_raid'. Did you mean: '_reset_raid_data'?
+2024-12-02 00:52:21,252 - root - INFO - Initiating shutdown sequence...
+2024-12-02 00:52:21,252 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 00:52:21,253 - database.manager - INFO - Database connections closed successfully
+2024-12-02 00:53:49,539 - root - INFO - Starting bot...
+2024-12-02 00:53:49,594 - database.manager - INFO - Database tables created successfully.
+2024-12-02 00:53:49,595 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 00:53:49,596 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 00:53:50,469 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 00:53:50,491 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 00:53:50,496 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 00:53:50,500 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 00:54:01,018 - features.commands.mod_commands - ERROR - Failed to ban user: 'Channel' object has no attribute 'ban'
+2024-12-02 00:55:47,766 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 00:57:35,919 - features.points.commands - INFO - New user dayydev (542563436) added with 0 points.
+2024-12-02 00:57:47,802 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:57:47,802 - core.raid_recovery - ERROR - Raid error occurred: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 00:57:47,802 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-113' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:190> exception=AttributeError("'RaidManager' object has no attribute '_reset_raid'")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 293, in _complete_raid
+    raise RaidStateError(error_code)
+core.raid_errors.RaidStateError: ErrorCode.INVALID_STATE_TRANSITION
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 201, in _recruitment_timer
+    await self._complete_raid()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 408, in _complete_raid
+    await self._reset_raid()
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'RaidManager' object has no attribute '_reset_raid'. Did you mean: '_reset_raid_data'?
+2024-12-02 00:58:19,622 - features.commands.mod_commands - ERROR - Failed to ban user: 'Channel' object has no attribute 'ban'
+2024-12-02 00:59:16,910 - database.manager - ERROR - Database error: Python int too large to convert to SQLite INTEGER
+2024-12-02 00:59:16,910 - features.points.commands - ERROR - Error setting points: Python int too large to convert to SQLite INTEGER
+2024-12-02 01:27:53,980 - root - INFO - Initiating shutdown sequence...
+2024-12-02 01:27:53,981 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 01:27:53,982 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:00:35,004 - root - INFO - Starting bot...
+2024-12-02 12:00:35,102 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:00:35,103 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:00:35,103 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:00:35,877 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:00:35,915 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:00:35,918 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:00:35,921 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:00:45,905 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:00:49,333 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:02:49,384 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 12:02:49,384 - core.raid_recovery - ERROR - Raid error occurred: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 12:02:49,384 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-50' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:190> exception=AttributeError("'RaidManager' object has no attribute '_reset_raid'")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 293, in _complete_raid
+    raise RaidStateError(error_code)
+core.raid_errors.RaidStateError: ErrorCode.INVALID_STATE_TRANSITION
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 201, in _recruitment_timer
+    await self._complete_raid()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 408, in _complete_raid
+    await self._reset_raid()
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'RaidManager' object has no attribute '_reset_raid'. Did you mean: '_reset_raid_data'?
+2024-12-02 12:17:31,509 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:17:31,509 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:17:31,510 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:17:36,007 - root - INFO - Starting bot...
+2024-12-02 12:17:36,119 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:17:36,121 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:17:36,122 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:17:36,904 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:17:36,943 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:17:36,947 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:17:36,951 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:17:48,052 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:17:49,942 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:19:49,957 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 12:19:49,957 - core.raid_recovery - ERROR - Raid error occurred: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 12:19:49,957 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 12:19:49,957 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<RaidManager._recruitment_timer() done, defined at C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py:192> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 295, in _complete_raid
+    raise RaidStateError(error_code)
+core.raid_errors.RaidStateError: ErrorCode.INVALID_STATE_TRANSITION
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 203, in _recruitment_timer
+    await self._complete_raid()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\raid_manager.py", line 410, in _complete_raid
+    await self._reset_raid_data()
+TypeError: object NoneType can't be used in 'await' expression
+2024-12-02 12:20:10,970 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:20:10,970 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:20:10,971 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:24:37,714 - root - INFO - Starting bot...
+2024-12-02 12:24:37,744 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:24:37,745 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:24:37,746 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:24:38,532 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:24:38,557 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:24:38,561 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:24:38,564 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:24:45,144 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:24:47,491 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:26:47,511 - core.raid_manager - ERROR - Invalid state transition from RaidState.RECRUITING to LAUNCHING
+2024-12-02 12:26:47,511 - core.raid_manager - ERROR - Error completing raid: ErrorCode.INVALID_STATE_TRANSITION
+2024-12-02 12:26:47,511 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 12:30:39,408 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:30:39,408 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:30:39,409 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:30:47,831 - root - INFO - Starting bot...
+2024-12-02 12:30:47,861 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:30:47,862 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:30:47,863 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:30:48,922 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:30:48,956 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:30:48,960 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:30:48,963 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:30:56,367 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:30:58,924 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:44:25,173 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:44:25,174 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:44:25,174 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:44:27,236 - root - INFO - Starting bot...
+2024-12-02 12:44:27,269 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:44:27,270 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:44:27,271 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:44:28,057 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:44:28,088 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:44:28,126 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:44:28,135 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:44:42,228 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:44:57,146 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:45:57,165 - core.raid_manager - ERROR - Error in recruitment timer: RaidManager._announce_time_remaining() takes 1 positional argument but 2 were given
+2024-12-02 12:45:57,165 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 12:45:57,176 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 12:45:57,176 - core.raid_manager - ERROR - Error in raid error handler: 'RaidMessageHandler' object has no attribute 'announce_raid_failure'
+2024-12-02 12:45:57,177 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 12:45:57,177 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 12:51:22,852 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:51:22,852 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:51:22,853 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:51:26,195 - root - INFO - Starting bot...
+2024-12-02 12:51:26,221 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:51:26,222 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:51:26,223 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:51:27,017 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:51:27,049 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:51:27,054 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:51:27,059 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:56:29,992 - root - INFO - Initiating shutdown sequence...
+2024-12-02 12:56:29,993 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 12:56:29,994 - database.manager - INFO - Database connections closed successfully
+2024-12-02 12:57:44,555 - root - INFO - Starting bot...
+2024-12-02 12:57:44,582 - database.manager - INFO - Database tables created successfully.
+2024-12-02 12:57:44,584 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 12:57:44,584 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 12:57:45,349 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 12:57:45,379 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 12:57:45,385 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 12:57:45,390 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 12:57:56,578 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:57:59,038 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 12:59:59,055 - core.raid_manager - INFO - Recruitment timer finished - ending raid
+2024-12-02 12:59:59,055 - core.raid_manager - INFO - Ending raid with 1 participants (need 2)
+2024-12-02 12:59:59,055 - core.raid_manager - INFO - Insufficient participants - cancelling raid
+2024-12-02 12:59:59,055 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 12:59:59,062 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:01:19,122 - features.points.commands - INFO - User defiantdread (81246495) has 99999997900 points.
+2024-12-02 13:01:28,698 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 13:01:32,218 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 13:01:34,717 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 13:01:53,150 - core.raid_manager - INFO - Raid state explicitly reset
+2024-12-02 13:03:21,979 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:03:21,980 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:03:21,980 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:05:36,972 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:05:36,973 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:05:36,973 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:05:39,836 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:05:39,836 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:05:39,837 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:06:14,776 - root - INFO - Starting bot...
+2024-12-02 13:06:14,806 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:06:14,806 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:06:14,807 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:06:15,581 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:06:15,603 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:06:15,606 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:06:15,608 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:06:33,100 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:06:33,100 - core.raid_manager - ERROR - Error resetting raid data: 'RaidManager' object has no attribute '_recruitment_task'
+2024-12-02 13:06:38,429 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:06:38,429 - core.raid_manager - ERROR - Error resetting raid data: 'RaidManager' object has no attribute '_recruitment_task'
+2024-12-02 13:06:38,429 - features.commands.raid_commands - ERROR - Error forcing raid: name 'AsyncMock' is not defined
+2024-12-02 13:07:23,609 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:07:23,609 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:07:23,611 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:09:47,736 - root - INFO - Starting bot...
+2024-12-02 13:09:47,761 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:09:47,761 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:09:47,761 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:09:48,538 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:09:48,572 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:09:48,576 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:09:48,579 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:10:03,153 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:10:03,153 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 13:10:06,701 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:10:06,701 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 13:10:18,244 - features.points.commands - INFO - User defiantdread (81246495) has 0 points.
+2024-12-02 13:12:06,745 - core.raid_manager - INFO - Recruitment timer finished - ending raid
+2024-12-02 13:12:06,746 - core.raid_manager - INFO - Ending raid with 1 participants (need 2)
+2024-12-02 13:12:06,746 - core.raid_manager - INFO - Insufficient participants - cancelling raid
+2024-12-02 13:12:06,746 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 13:12:06,757 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:12:26,876 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 13:13:49,778 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:13:49,778 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:13:49,778 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:19:28,668 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:19:28,668 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:19:28,669 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:19:44,643 - root - INFO - Starting bot...
+2024-12-02 13:19:44,670 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:19:44,671 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:19:44,671 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:19:45,415 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:19:45,442 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:19:45,445 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:19:45,448 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:21:17,119 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:21:17,119 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:21:17,119 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:21:17,119 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 13:21:17,119 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:21:33,785 - root - INFO - Starting bot...
+2024-12-02 13:21:33,815 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:21:33,816 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:21:33,817 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:21:34,584 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:21:34,614 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:21:34,620 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:21:34,625 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:21:41,038 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 13:21:41,038 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:21:41,038 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 13:21:41,038 - features.commands.raid_commands - INFO - Force reset completed successfully
+2024-12-02 13:21:46,822 - core.raid_manager - INFO - Resetting raid data
+2024-12-02 13:21:46,823 - core.raid_manager - INFO - Raid data reset completed
+2024-12-02 13:21:57,437 - features.points.commands - INFO - User defiantdread (81246495) has 0 points.
+2024-12-02 13:22:45,364 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 13:23:46,835 - core.raid_manager - INFO - Recruitment timer finished - ending raid
+2024-12-02 13:23:46,835 - core.raid_manager - INFO - Ending raid with 1 participants (need 2)
+2024-12-02 13:23:46,835 - core.raid_manager - INFO - Insufficient participants - cancelling raid
+2024-12-02 13:23:46,835 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 13:23:46,844 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:23:54,837 - features.points.commands - INFO - User defiantdread (81246495) has 2000 points.
+2024-12-02 13:24:17,818 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 13:24:22,831 - features.commands.raid_commands - ERROR - Force reset timed out
+2024-12-02 13:28:13,636 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:28:13,637 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:28:52,467 - root - INFO - Starting bot...
+2024-12-02 13:28:52,496 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:28:52,497 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:28:52,497 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:28:53,298 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:28:53,319 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:28:53,322 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:28:53,324 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:29:10,059 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 13:29:10,059 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:29:10,059 - core.raid_manager - INFO - Forced raid reset completed
+2024-12-02 13:29:10,059 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:29:10,060 - features.commands.raid_commands - INFO - Force reset completed successfully
+2024-12-02 13:29:19,170 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:29:19,170 - core.raid_manager - INFO - Forced raid reset completed
+2024-12-02 13:29:19,170 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:29:47,895 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 13:31:19,184 - core.raid_manager - INFO - Recruitment timer finished - ending raid
+2024-12-02 13:31:19,184 - core.raid_manager - INFO - Ending raid with 1 participants (need 2)
+2024-12-02 13:31:19,184 - core.raid_manager - INFO - Insufficient participants - cancelling raid
+2024-12-02 13:31:19,184 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 13:31:19,191 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:33:07,632 - features.points.commands - INFO - User defiantdread (81246495) has 2000 points.
+2024-12-02 13:33:15,296 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 13:33:20,302 - features.commands.raid_commands - ERROR - Force reset timed out
+2024-12-02 13:33:20,302 - core.raid_manager - INFO - Forced raid reset completed
+2024-12-02 13:36:43,451 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:36:43,451 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:37:03,190 - root - INFO - Starting bot...
+2024-12-02 13:37:03,219 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:37:03,219 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:37:03,220 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:37:03,963 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:37:03,984 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:37:03,987 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:37:03,990 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:37:13,334 - features.points.commands - INFO - User defiantdread (81246495) has 2000 points.
+2024-12-02 13:37:17,297 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 13:37:17,297 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:37:17,297 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:37:17,297 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:37:17,297 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:37:17,298 - features.commands.raid_commands - INFO - Force reset completed successfully
+2024-12-02 13:37:20,831 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:37:20,831 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:37:20,831 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:37:20,831 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:39:20,848 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 13:39:20,848 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 13:39:20,849 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 13:39:20,849 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:39:20,857 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:43:43,503 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:43:43,503 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:43:43,503 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:43:43,503 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:45:43,517 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 13:45:43,517 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 13:45:43,517 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 13:45:43,517 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 13:45:43,526 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 13:45:43,527 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:45:43,527 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:45:43,527 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 13:45:43,527 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:45:43,527 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:46:33,866 - features.points.commands - INFO - User defiantdread (81246495) has 2000 points.
+2024-12-02 13:46:37,809 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:46:37,809 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:46:37,809 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:46:37,810 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:46:37,810 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:46:37,810 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:46:37,810 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:48:38,562 - root - INFO - Starting bot...
+2024-12-02 13:48:38,592 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:48:38,593 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:48:38,594 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:48:39,385 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:48:39,413 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:48:39,418 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:48:39,424 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:48:49,847 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-02 13:48:49,848 - features.commands.raid_commands - ERROR - Error processing raid stats command: (sqlite3.OperationalError) no such table: player_raid_stats
+[SQL: SELECT player_raid_stats.user_id, player_raid_stats.total_raids, player_raid_stats.successful_raids, player_raid_stats.total_invested, player_raid_stats.total_plunder, player_raid_stats.biggest_reward 
+FROM player_raid_stats 
+WHERE player_raid_stats.user_id = ?]
+[parameters: ('81246495',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-02 13:51:31,888 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:51:31,889 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:51:31,889 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:51:31,889 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:51:31,889 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:51:31,889 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:51:31,890 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:51:39,573 - root - INFO - Starting bot...
+2024-12-02 13:51:39,621 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:51:39,622 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:51:39,622 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:51:40,386 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:51:40,410 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:51:40,416 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:51:40,421 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 13:52:31,036 - features.commands.raid_commands - ERROR - Error processing crew command: 'ship_type'
+2024-12-02 13:54:06,364 - root - INFO - Initiating shutdown sequence...
+2024-12-02 13:54:06,364 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 13:54:06,365 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 13:54:06,365 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 13:54:06,365 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 13:54:06,365 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 13:54:06,366 - database.manager - INFO - Database connections closed successfully
+2024-12-02 13:54:10,773 - root - INFO - Starting bot...
+2024-12-02 13:54:10,794 - database.manager - INFO - Database tables created successfully.
+2024-12-02 13:54:10,795 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 13:54:10,796 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 13:54:11,570 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 13:54:11,605 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 13:54:11,611 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 13:54:11,615 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:00:05,899 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:00:05,900 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:00:05,900 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:00:05,900 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:01:18,401 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:01:18,402 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:01:18,402 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:01:18,402 - core.raid_manager - INFO - Cancelling recruitment task
+2024-12-02 14:01:18,403 - core.raid_manager - INFO - Recruitment timer cancelled
+2024-12-02 14:01:18,403 - core.raid_manager - WARNING - Recruitment task cancellation timed out
+2024-12-02 14:01:18,403 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:01:18,403 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:01:18,404 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:01:18,404 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:03:12,426 - root - INFO - Starting bot...
+2024-12-02 14:03:12,445 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:03:12,446 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:03:12,446 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:03:13,480 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:03:13,510 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:03:13,513 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:03:13,517 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:03:24,318 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:03:24,318 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:03:24,318 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:03:24,318 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:05:24,343 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:05:24,343 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 14:05:24,343 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:05:24,343 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:05:24,355 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 14:05:24,355 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:05:24,355 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:05:24,355 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:05:24,355 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:05:24,357 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:06:47,978 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:06:47,978 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:06:47,978 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:06:47,978 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:06:47,978 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:06:47,979 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:06:47,979 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:07:49,057 - root - INFO - Starting bot...
+2024-12-02 14:07:49,078 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:07:49,078 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:07:49,079 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:07:49,832 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:07:49,859 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:07:49,862 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:07:49,865 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:07:58,178 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:07:58,178 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:07:58,178 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:07:58,179 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:07:58,179 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:07:58,179 - core.raid_manager - INFO - Current viewer count: 10
+2024-12-02 14:07:58,179 - core.raid_manager - INFO - Raid initialized - Ship: Silk Runner, Required crew: 2
+2024-12-02 14:07:58,180 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:08:05,019 - features.points.commands - INFO - User defiantdread (81246495) has 0 points.
+2024-12-02 14:08:16,891 - core.raid_manager - INFO - Getting raid status - Current state: RaidState.RECRUITING, Has current_raid: False
+2024-12-02 14:08:16,891 - core.raid_manager - INFO - Raid details - Ship type: Silk Runner, Crew count: 1, Required crew: 2
+2024-12-02 14:08:16,891 - core.raid_manager - INFO - No active raid found
+2024-12-02 14:08:29,512 - core.raid_manager - INFO - Getting raid status - Current state: RaidState.RECRUITING, Has current_raid: False
+2024-12-02 14:08:29,513 - core.raid_manager - INFO - Raid details - Ship type: Silk Runner, Crew count: 1, Required crew: 2
+2024-12-02 14:08:29,513 - core.raid_manager - INFO - No active raid found
+2024-12-02 14:09:58,191 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:09:58,191 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 14:09:58,191 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:09:58,191 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:09:58,203 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 14:09:58,203 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:09:58,203 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:09:58,204 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:09:58,204 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:09:58,204 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:10:35,714 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 14:10:38,209 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:10:38,210 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:10:38,210 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:10:38,210 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:10:38,210 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:10:38,210 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:10:38,211 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:10:45,241 - root - INFO - Starting bot...
+2024-12-02 14:10:45,261 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:10:45,263 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:10:45,263 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:10:46,012 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:10:46,040 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:10:46,043 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:10:46,047 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:10:59,903 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:10:59,903 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:10:59,903 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:10:59,904 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:10:59,904 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:10:59,904 - core.raid_manager - INFO - Current viewer count: 1000
+2024-12-02 14:10:59,904 - core.raid_manager - INFO - Raid initialized - Ship: Portuguese Spice Armada, Required crew: 100
+2024-12-02 14:10:59,904 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:11:07,476 - features.commands.raid_commands - INFO - Force reset command initiated
+2024-12-02 14:11:07,476 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:11:07,477 - core.raid_manager - INFO - Cancelling recruitment task
+2024-12-02 14:11:07,477 - core.raid_manager - INFO - Recruitment timer cancelled
+2024-12-02 14:11:07,477 - core.raid_manager - WARNING - Recruitment task cancellation timed out
+2024-12-02 14:11:07,478 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:11:07,478 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:11:07,478 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:11:07,478 - features.commands.raid_commands - INFO - Force reset completed successfully
+2024-12-02 14:11:19,968 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Current viewer count: 10
+2024-12-02 14:11:19,969 - core.raid_manager - INFO - Raid initialized - Ship: Wine Transport, Required crew: 2
+2024-12-02 14:11:19,971 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:11:26,970 - core.raid_manager - INFO - Getting raid status - Current state: RaidState.RECRUITING, Ship type: Wine Transport
+2024-12-02 14:11:26,971 - core.raid_manager - INFO - Returning raid status: {'state': <RaidState.RECRUITING: 'RECRUITING'>, 'ship_type': 'Wine Transport', 'current_crew': 1, 'required_crew': 2, 'multiplier': 1.5, 'time_remaining': 0}
+2024-12-02 14:13:20,014 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:13:20,014 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 14:13:20,014 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:13:20,014 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:13:20,022 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 14:13:20,023 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:13:20,023 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:13:20,023 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:13:20,024 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:13:20,024 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:13:56,358 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:13:56,358 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:13:56,358 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:13:56,360 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:13:56,360 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:13:56,360 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:13:56,360 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:13:58,906 - root - INFO - Starting bot...
+2024-12-02 14:13:58,933 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:13:58,935 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:13:58,935 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:13:59,716 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:13:59,741 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:13:59,745 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:13:59,749 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:14:04,323 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:14:04,323 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:14:04,324 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:14:04,324 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:14:04,324 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:14:04,324 - core.raid_manager - INFO - Current viewer count: 10
+2024-12-02 14:14:04,324 - core.raid_manager - INFO - Raid initialized - Ship: Merchant Sloop, Required crew: 2
+2024-12-02 14:14:04,325 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:16:04,343 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Handling raid completion. Participants: 0/2
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:16:04,344 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:16:04,345 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:16:04,345 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:16:20,250 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 14:16:32,090 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:16:32,090 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:16:32,091 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:16:32,091 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:16:32,091 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:16:32,091 - core.raid_manager - INFO - Current viewer count: 10
+2024-12-02 14:16:32,091 - core.raid_manager - INFO - Raid initialized - Ship: Fishing Vessel, Required crew: 2
+2024-12-02 14:16:32,092 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:18:32,104 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:18:32,104 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 14:18:32,104 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:18:32,104 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:18:32,116 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:20:22,869 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:20:22,870 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:20:22,870 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:20:22,870 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:20:22,870 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:20:22,870 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:20:22,870 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:20:40,830 - root - INFO - Starting bot...
+2024-12-02 14:20:40,849 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:20:40,850 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:20:40,851 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:20:41,627 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:20:41,652 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:20:41,656 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:20:41,659 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 14:20:59,113 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:20:59,113 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:20:59,113 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:20:59,113 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:20:59,114 - core.raid_manager - INFO - Starting raid - Current state: RaidState.INACTIVE
+2024-12-02 14:20:59,114 - core.raid_manager - INFO - Current viewer count: 10
+2024-12-02 14:20:59,114 - core.raid_manager - INFO - Raid initialized - Ship: Supply Barge, Required crew: 2
+2024-12-02 14:20:59,114 - core.raid_manager - INFO - Raid started successfully
+2024-12-02 14:21:01,557 - core.raid_manager - INFO - Getting raid status - Current state: RaidState.RECRUITING, Ship type: Supply Barge
+2024-12-02 14:21:01,557 - core.raid_manager - INFO - Returning raid status: {'state': <RaidState.RECRUITING: 'RECRUITING'>, 'ship_type': 'Supply Barge', 'current_crew': 0, 'required_crew': 2, 'multiplier': 1.5, 'time_remaining': 0}
+2024-12-02 14:21:09,758 - core.raid_manager - INFO - Getting raid status - Current state: RaidState.RECRUITING, Ship type: Supply Barge
+2024-12-02 14:21:09,759 - core.raid_manager - INFO - Returning raid status: {'state': <RaidState.RECRUITING: 'RECRUITING'>, 'ship_type': 'Supply Barge', 'current_crew': 1, 'required_crew': 2, 'multiplier': 1.5, 'time_remaining': 0}
+2024-12-02 14:22:59,138 - core.raid_manager - INFO - Recruitment timer finished - initiating raid end
+2024-12-02 14:22:59,138 - core.raid_manager - INFO - Handling raid completion. Participants: 1/2
+2024-12-02 14:22:59,138 - core.raid_manager - INFO - Raid failed - insufficient participants
+2024-12-02 14:22:59,138 - core.raid_manager - INFO - Handling raid error and cleaning up
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Refunded 1000 points to defiantdread
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Resetting raid state after completion
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:22:59,146 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:33:08,047 - features.points.commands - INFO - User defiantdread (81246495) has 1000 points.
+2024-12-02 14:54:43,907 - root - INFO - Initiating shutdown sequence...
+2024-12-02 14:54:43,908 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 14:54:43,908 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 14:54:43,908 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 14:54:43,908 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 14:54:43,908 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 14:54:43,909 - database.manager - INFO - Database connections closed successfully
+2024-12-02 14:54:48,182 - root - INFO - Starting bot...
+2024-12-02 14:54:48,202 - database.manager - INFO - Database tables created successfully.
+2024-12-02 14:54:48,204 - database.manager - INFO - Database engine initialized successfully
+2024-12-02 14:54:48,205 - root - INFO - Bot initialized, connecting to Twitch...
+2024-12-02 14:54:48,981 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-12-02 14:54:49,015 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-12-02 14:54:49,018 - features.moderation.moderator - INFO - Loaded 0 banned phrases
+2024-12-02 14:54:49,022 - features.points.points_manager - INFO - Tables initialized successfully.
+2024-12-02 15:26:50,557 - root - INFO - Initiating shutdown sequence...
+2024-12-02 15:26:50,558 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-12-02 15:26:50,558 - core.raid_manager - INFO - Starting raid data reset
+2024-12-02 15:26:50,558 - core.raid_manager - INFO - Performing force reset of raid state
+2024-12-02 15:26:50,558 - core.raid_manager - INFO - Force reset completed - state is now INACTIVE
+2024-12-02 15:26:50,559 - core.raid_manager - INFO - Raid data reset completed successfully
+2024-12-02 15:26:50,559 - database.manager - INFO - Database connections closed successfully

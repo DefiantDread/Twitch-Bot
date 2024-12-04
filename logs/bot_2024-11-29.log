@@ -1,0 +1,413 @@
+2024-11-29 21:21:14,044 - root - INFO - Starting bot...
+2024-11-29 21:21:14,044 - root - CRITICAL - Fatal error: type object 'datetime.datetime' has no attribute 'timezone'
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 86, in main
+    bot = TwitchBot()
+          ^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 42, in __init__
+    self.start_time = datetime.now(datetime.timezone.utc)
+                                   ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timezone'. Did you mean: 'astimezone'?
+2024-11-29 21:22:08,436 - root - INFO - Starting bot...
+2024-11-29 21:22:08,438 - root - CRITICAL - Fatal error: 'TwitchBot' object has no attribute '_start_background_cleanup'
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 86, in main
+    bot = TwitchBot()
+          ^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 49, in __init__
+    self._start_background_cleanup()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TwitchBot' object has no attribute '_start_background_cleanup'. Did you mean: '_start_background_tasks'?
+2024-11-29 21:23:28,525 - root - INFO - Starting bot...
+2024-11-29 21:23:28,536 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 21:23:28,537 - root - CRITICAL - Fatal error: 
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 94, in main
+    handle_signals(bot, loop)
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 70, in handle_signals
+    loop.add_signal_handler(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 582, in add_signal_handler
+    raise NotImplementedError
+NotImplementedError
+2024-11-29 21:23:28,538 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 21:23:28,538 - asyncio - ERROR - Error during shutdown: 'AnalyticsTracker' object has no attribute 'update_session_stats'
+2024-11-29 21:23:28,539 - asyncio - ERROR - Error in analytics update task: 'AnalyticsTracker' object has no attribute 'update_session_stats'
+2024-11-29 21:23:28,539 - root - CRITICAL - Unexpected error: 'NoneType' object has no attribute 'set'
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 94, in main
+    handle_signals(bot, loop)
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 70, in handle_signals
+    loop.add_signal_handler(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 582, in add_signal_handler
+    raise NotImplementedError
+NotImplementedError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 109, in <module>
+    asyncio.run(main())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\main.py", line 104, in main
+    await bot.close()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\core\bot.py", line 457, in close
+    await super().close()
+  File "C:\Users\excub\Documents\Important Documents\Code Projects\Twitch Bot\venv\Lib\site-packages\twitchio\client.py", line 199, in close
+    self._closing.set()
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'set'
+2024-11-29 21:26:01,302 - root - INFO - Starting bot...
+2024-11-29 21:26:01,313 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 21:26:01,313 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 21:26:02,102 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 21:26:02,141 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 21:26:02,141 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:26:02,142 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:26:02,142 - database.manager - ERROR - Database error: Textual SQL expression '\n                CREATE T...' should be explicitly declared as text('\n                CREATE T...')
+2024-11-29 21:26:26,834 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT first_seen FROM us...' should be explicitly declared as text('SELECT first_seen FROM us...')
+2024-11-29 21:26:26,835 - features.tracking.user_tracker - ERROR - Error checking first time chatter: Textual SQL expression 'SELECT first_seen FROM us...' should be explicitly declared as text('SELECT first_seen FROM us...')
+2024-11-29 21:26:26,836 - database.manager - ERROR - Database error: Textual SQL expression '\n                    INSE...' should be explicitly declared as text('\n                    INSE...')
+2024-11-29 21:26:26,836 - features.tracking.user_tracker - ERROR - Error updating user database: Textual SQL expression '\n                    INSE...' should be explicitly declared as text('\n                    INSE...')
+2024-11-29 21:26:26,836 - asyncio - ERROR - Error processing message: 'TwitchBot' object has no attribute 'prefix'
+2024-11-29 21:26:51,215 - database.manager - ERROR - Database error: Textual SQL expression '\n                    INSE...' should be explicitly declared as text('\n                    INSE...')
+2024-11-29 21:26:51,217 - features.tracking.user_tracker - ERROR - Error updating user database: Textual SQL expression '\n                    INSE...' should be explicitly declared as text('\n                    INSE...')
+2024-11-29 21:26:51,217 - asyncio - ERROR - Error processing message: 'TwitchBot' object has no attribute 'prefix'
+2024-11-29 21:26:54,712 - root - INFO - Initiating shutdown sequence...
+2024-11-29 21:26:54,712 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 21:28:34,567 - root - INFO - Starting bot...
+2024-11-29 21:28:34,578 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 21:28:34,578 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 21:28:35,355 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 21:28:35,384 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 21:28:35,389 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:28:35,390 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:28:35,390 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:28:35,391 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:28:35,393 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 21:29:05,183 - root - INFO - Initiating shutdown sequence...
+2024-11-29 21:29:05,183 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 21:53:08,600 - root - INFO - Starting bot...
+2024-11-29 21:53:08,612 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 21:53:08,613 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 21:53:08,614 - asyncio - ERROR - Error in watch time update task: 'UserTracker' object has no attribute 'update_watch_time'
+2024-11-29 21:53:09,370 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 21:53:09,407 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 21:53:09,410 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:53:09,412 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:53:09,412 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:53:09,413 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:53:09,413 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 21:53:44,890 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:53:44,891 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:56:50,936 - root - INFO - Initiating shutdown sequence...
+2024-11-29 21:56:50,937 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 21:56:54,643 - root - INFO - Starting bot...
+2024-11-29 21:56:54,655 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 21:56:54,655 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 21:56:55,443 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 21:56:55,469 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 21:56:55,473 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:56:55,474 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 21:56:55,474 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:56:55,474 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 21:56:55,476 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 21:57:16,377 - root - INFO - Initiating shutdown sequence...
+2024-11-29 21:57:16,377 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:05:42,199 - root - INFO - Starting bot...
+2024-11-29 22:05:42,212 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:05:42,212 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:05:42,961 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:05:43,002 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:05:43,003 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:05:43,004 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:05:43,005 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:05:43,006 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:05:43,007 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:06:29,860 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:06:29,861 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:06:34,558 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:06:34,558 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:25:35,769 - root - INFO - Starting bot...
+2024-11-29 22:25:35,771 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:25:35,771 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:25:36,514 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:25:36,548 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:25:36,552 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:25:36,553 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:25:36,554 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:25:36,578 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:25:36,579 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:25:51,011 - database.manager - ERROR - Database error: can't 'checkout' a detached connection fairy
+2024-11-29 22:25:51,012 - bot - ERROR - Failed to process user join: can't 'checkout' a detached connection fairy
+2024-11-29 22:25:58,620 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:25:58,621 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:37:53,047 - root - INFO - Starting bot...
+2024-11-29 22:37:53,050 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:37:53,050 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:37:53,805 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:37:53,833 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:37:53,836 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:37:53,836 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:37:53,836 - features.points.points_manager - ERROR - Error initializing tables: name 'text' is not defined
+2024-11-29 22:37:53,837 - database.manager - ERROR - Database error: name 'text' is not defined
+2024-11-29 22:37:53,840 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:37:53,841 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:37:56,522 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:37:56,523 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:39:11,343 - root - INFO - Starting bot...
+2024-11-29 22:39:11,344 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:39:11,345 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:39:12,083 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:39:12,113 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:39:12,113 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:39:12,114 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:39:12,115 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 22:39:12,115 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:39:12,118 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:39:12,119 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:39:15,019 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:39:15,019 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:42:37,661 - root - INFO - Starting bot...
+2024-11-29 22:42:37,663 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:42:37,664 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:42:38,428 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:42:38,458 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:42:38,461 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:42:38,461 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:42:38,463 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 22:42:38,463 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:42:38,465 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:42:38,466 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:42:40,148 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:42:40,148 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:47:52,727 - root - INFO - Starting bot...
+2024-11-29 22:47:52,730 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:47:52,730 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:47:53,537 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:47:53,560 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:47:53,564 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:47:53,564 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:47:53,565 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 22:47:53,566 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:47:53,569 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:47:53,569 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:47:56,006 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:47:56,006 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:50:09,591 - root - INFO - Starting bot...
+2024-11-29 22:50:09,594 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:50:09,594 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:50:10,345 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:50:10,381 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:50:10,385 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:50:10,385 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:50:10,386 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 22:50:10,386 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:50:10,388 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:50:10,389 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:50:12,147 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:50:12,148 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 22:57:41,626 - root - INFO - Starting bot...
+2024-11-29 22:57:41,629 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 22:57:41,629 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 22:57:42,372 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 22:57:42,404 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 22:57:42,405 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:57:42,405 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 22:57:42,407 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 22:57:42,407 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 22:57:42,411 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:57:42,413 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 22:57:52,012 - asyncio - ERROR - Error processing message: 'UserTracker' object has no attribute 'track_user_message'
+2024-11-29 22:58:09,654 - database.manager - ERROR - Database error: can't 'checkout' a detached connection fairy
+2024-11-29 22:58:09,655 - bot - ERROR - Failed to process user join: can't 'checkout' a detached connection fairy
+2024-11-29 22:58:55,936 - root - INFO - Initiating shutdown sequence...
+2024-11-29 22:58:55,936 - asyncio - INFO - Bot shutting down, cleaning up...
+2024-11-29 23:01:09,732 - root - INFO - Starting bot...
+2024-11-29 23:01:09,733 - database.manager - INFO - Database engine initialized successfully
+2024-11-29 23:01:09,735 - root - INFO - Bot initialized, connecting to Twitch...
+2024-11-29 23:01:10,506 - twitchio.websocket - INFO - Successfully logged onto Twitch WS: helmsmanharry
+2024-11-29 23:01:10,541 - asyncio - INFO - Bot is ready! Username: helmsmanharry
+2024-11-29 23:01:10,544 - database.manager - ERROR - Database error: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 23:01:10,545 - features.moderation.moderator - ERROR - Error loading banned phrases: Textual SQL expression 'SELECT phrase FROM banned...' should be explicitly declared as text('SELECT phrase FROM banned...')
+2024-11-29 23:01:10,546 - features.points.points_manager - ERROR - Error initializing tables: object CursorResult can't be used in 'await' expression
+2024-11-29 23:01:10,546 - database.manager - ERROR - Database error: object CursorResult can't be used in 'await' expression
+2024-11-29 23:01:10,549 - database.manager - ERROR - Database error: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 23:01:10,549 - bot - ERROR - Failed to process user join: (sqlite3.OperationalError) no such table: users
+[SQL: SELECT users.id AS users_id, users.twitch_id AS users_twitch_id, users.username AS users_username, users.is_mod AS users_is_mod, users.is_subscriber AS users_is_subscriber, users.first_seen AS users_first_seen, users.last_seen AS users_last_seen 
+FROM users 
+WHERE users.twitch_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('None', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-29 23:01:12,207 - root - INFO - Initiating shutdown sequence...
+2024-11-29 23:01:12,207 - asyncio - INFO - Bot shutting down, cleaning up...
